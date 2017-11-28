@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  //apply flex to element - this becomes the flex container
+}
+
+.form__input {
+  flex-grow: 1;
+  // so item fills the space
+  border: 1px solid #E8E8E8;
+  padding: 0 1.3rem;
+}
